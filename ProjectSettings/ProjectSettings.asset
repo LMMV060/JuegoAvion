@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 711f9f9751d6406408dc760c0d9d46f1
+  productGUID: c25b968110d332743bad04a0f7f94527
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -770,11 +770,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 05cb4e34-be59-4181-9613-6af8deb37100
+  cloudProjectId: d5305eef-815d-42bf-a439-486495e24ef2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Scroll2D
-  organizationId: gameoverglitch
+  organizationId: amunada389
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

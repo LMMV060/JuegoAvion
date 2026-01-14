@@ -3,43 +3,40 @@ using UnityEngine;
 public class CircularScroll : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer nextBackground;
-    [SerializeField] private SpriteRenderer lastBackground;
-    private SpriteRenderer _moveBackground;
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
-        if (rb == null) return;
 
-        float direction = rb.linearVelocity.y;
-        //Esto es para las nubes
-        if (direction == 0) return;
-
-        // Fondo/Nube actual
-        SpriteRenderer current = GetComponent<SpriteRenderer>();
-
-        // Determinar qué fondo mover
-        if (direction > 0)
+        // Comprobar constantemente si el jugador entra en Collider (OnTriggerEnter2D) o si ya está dentro (OnTriggerStay2D)
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            _moveBackground = nextBackground;
-        }
-        else
-        {
-            _moveBackground = lastBackground;
+            UpdateBackgroundPosition(other);
         }
 
-        Vector3 nuevaPos = _moveBackground.transform.position;
-
-        //Poner el fondo al final del fondo actual usando los bounds pillando el max (alto) y min (bajo)
-        if (direction > 0)
+        private void OnTriggerStay2D(Collider2D other)
         {
-            nuevaPos.y += current.bounds.max.y - _moveBackground.bounds.min.y;
-        }
-        else
-        {
-            nuevaPos.y += current.bounds.min.y - _moveBackground.bounds.max.y;
+            UpdateBackgroundPosition(other);
         }
 
-        //Aplica los calculos de antes para mover el fondo
-        _moveBackground.transform.position = nuevaPos;
-    }
+        private void UpdateBackgroundPosition(Collider2D other)
+        {
+            if (other.attachedRigidbody == null) return;
+
+            float verticalVelocity = other.attachedRigidbody.linearVelocity.y;
+        
+            // Si el jugador se mueve (incluso un poco), calculamos dónde debería estar el fondo
+            if (Mathf.Abs(verticalVelocity) > 0.01f)
+            {
+                float direction = Mathf.Sign(verticalVelocity);
+                float spriteHeight = nextBackground.size.y;
+
+                // La posición ideal del fondo vecino es arriba o abajo del actual
+                Vector3 targetPosition = transform.position;
+                targetPosition.y += spriteHeight * direction;
+
+                // Si el fondo vecino no está en esa posición, lo movemos
+                if (Vector3.Distance(nextBackground.transform.position, targetPosition) > 0.1f)
+                {
+                    nextBackground.transform.position = targetPosition;
+                }
+            }
+        }
 }
+

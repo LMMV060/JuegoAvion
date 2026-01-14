@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: f1b5e6462602b4e4a90a9b0dd5273c92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3902613194259247690
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_0
+  - first:
+      213: 6343685819313062836
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_1
+  - first:
+      213: 206309053261044239
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_2
+  - first:
+      213: 630187548366841616
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_3
+  - first:
+      213: 4741691631756670074
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_4
+  - first:
+      213: -7594561121184439944
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_5
+  - first:
+      213: 6270698751157802467
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_6
+  - first:
+      213: -6220960745705479488
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_7
+  - first:
+      213: -4527491127693943974
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_8
+  - first:
+      213: -5220993816398519352
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_9
+  - first:
+      213: 1649284273809533432
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_10
+  - first:
+      213: 8004492475514274018
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_11
+  - first:
+      213: -3453629244832376238
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_12
+  - first:
+      213: -8456011992240172293
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_13
+  - first:
+      213: -5019926030809332577
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_14
+  - first:
+      213: 8329753512712889069
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_15
+  - first:
+      213: 2528429267647359795
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_16
+  - first:
+      213: 4397182096885346785
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_17
+  - first:
+      213: -8589023536036613523
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_18
+  - first:
+      213: 8503309437126716054
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_19
+  - first:
+      213: 3498415874566812062
+    second: 1601.m00.i104.n010.P.c25.259592090 Video game explosion animation in
+      Pixel Art. Explosion animation frames_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explosion_animation_frames_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 915
+        width: 531
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7294e5754491141458a2efa72ed0d599
+      internalID: -446335140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_animation_frames_1
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 851
+        width: 605
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e390e9a28a7df741968a63f9dbb586f
+      internalID: 1731229622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_animation_frames_2
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 845
+        width: 653
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e86df11a9363c94491d47bf68bf3c6d
+      internalID: -1268210071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_animation_frames_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 13
+        width: 580
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae70aa35ea59406408e55fb93590ef1e
+      internalID: 2040767743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_animation_frames_4
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 6
+        width: 572
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dd87a9060900341bfd6fd820f36402
+      internalID: -465502120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_animation_frames_5
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 8
+        width: 573
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f1cf4f5ba251946a4e01dd2fe43699
+      internalID: -916201196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3f620abb5ec84b0428b1162b86883fae
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Explosion_animation_frames_0: -446335140
+      Explosion_animation_frames_1: 1731229622
+      Explosion_animation_frames_10: 735846404
+      Explosion_animation_frames_11: -1854690571
+      Explosion_animation_frames_12: -1643544628
+      Explosion_animation_frames_13: 2058985592
+      Explosion_animation_frames_14: 1950049001
+      Explosion_animation_frames_15: 951713142
+      Explosion_animation_frames_16: 427500288
+      Explosion_animation_frames_17: -1057792312
+      Explosion_animation_frames_18: -1494041637
+      Explosion_animation_frames_19: 735816155
+      Explosion_animation_frames_2: -1268210071
+      Explosion_animation_frames_20: 523933276
+      Explosion_animation_frames_3: 2040767743
+      Explosion_animation_frames_4: -465502120
+      Explosion_animation_frames_5: -916201196
+      Explosion_animation_frames_6: 1020052968
+      Explosion_animation_frames_8: -609751167
+      Explosion_animation_frames_9: 285479792
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
