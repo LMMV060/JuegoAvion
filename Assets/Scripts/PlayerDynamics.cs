@@ -41,6 +41,9 @@ using UnityEngine.PlayerLoop;
         private Transform _cameraLimitLeft;
         private Transform _cameraLimitRight;
 
+        //Pool
+
+        [SerializeField] private MisilPool pool;
         private void Awake()
         {
             //get references
@@ -242,7 +245,12 @@ using UnityEngine.PlayerLoop;
         private void Fire()
         {
             // Create a new GameObject firePrebab
-            GameObject fire = Instantiate(firePrefab);
-            fire.transform.position = transform.position;
+            //GameObject fire = Instantiate(firePrefab);
+            //fire.transform.position = transform.position;
+            GameObject fire = pool.GetBullet();
+            if (fire)
+            {
+                fire.transform.position = transform.position;
+            }
         }
     }
